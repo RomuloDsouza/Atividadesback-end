@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5f2b9;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.button{
+    border-radius: 10%;
+    color: rgb(22, 12, 135);
+}
+
+#resultado{
+    background-color: #289d05;
+    
+}
+
+.button:hover{
+    background-color: #3bcf12;
+    font-size: 1rem;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#resultado{
+    visibility: hidden;
+}
